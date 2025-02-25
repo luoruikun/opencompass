@@ -124,6 +124,7 @@ turbomind/
 *.gz.*
 *.png
 *.txt
+!requirements_conda.txt
 *.jpg
 *.json
 *.jsonl

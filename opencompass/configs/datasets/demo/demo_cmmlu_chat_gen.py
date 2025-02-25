@@ -5,4 +5,4 @@ with read_base():
 
 for d in cmmlu_datasets:
     d['abbr'] = 'demo_' + d['abbr']
-    d['reader_cfg']['test_range'] = '[0:4]'
+    d['reader_cfg']['test_range'] = '[0:10]'
